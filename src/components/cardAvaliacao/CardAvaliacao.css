@@ -1,0 +1,47 @@
+.card-avaliacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+.conteudo-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-avaliacao h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #202020;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+.card-avaliacao p {
+  color: #666;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.btn-download {
+  background-color: #80ec99;
+  color: #202020;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+}
+
+.btn-download:hover {
+  background-color: #6bd389;
+}

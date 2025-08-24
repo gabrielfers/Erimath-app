@@ -1,0 +1,132 @@
+.secao-ancora {
+  scroll-margin-top: 80px;
+}
+.inicio {
+  min-height: calc(100vh - 80px);
+  background-color: #202020;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio h1 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.inicio h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.inicio p {
+  font-size: 18px;
+  font-weight: 200;
+  max-width: 900px;
+  text-align: center;
+}
+
+.math-symbols {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.math-symbols span {
+  position: absolute;
+  font-size: 3rem;
+  color: #80ec99;
+  opacity: 0.5;
+}
+
+.pi {
+  top: 15%;
+  right: 8%;
+  font-size: 3.2rem;
+}
+.infinity {
+  top: 78%;
+  left: 25%;
+  font-size: 4.5rem;
+}
+.sigma {
+  bottom: 35%;
+  right: 12%;
+  font-size: 2.8rem;
+}
+.sqrt {
+  top: 5%;
+  left: 35%;
+  font-size: 3.8rem;
+}
+.divide {
+  bottom: 8%;
+  left: 75%;
+  font-size: 2.2rem;
+}
+.integral {
+  top: 62%;
+  right: 35%;
+  font-size: 5rem;
+}
+.delta {
+  top: 15%;
+  left: 5%;
+  font-size: 2.5rem;
+}
+.alpha {
+  top: 85%;
+  right: 25%;
+  font-size: 3.5rem;
+}
+.beta {
+  top: 22%;
+  left: 15%;
+  font-size: 2.8rem;
+}
+.theta {
+  bottom: 15%;
+  right: 45%;
+  font-size: 4.2rem;
+}
+.not-equal {
+  top: 45%;
+  right: 5%;
+  font-size: 2.6rem;
+}
+.approximately {
+  bottom: 75%;
+  left: 45%;
+  font-size: 3.8rem;
+}
+.plus {
+  top: 25%;
+  left: 75%;
+  font-size: 2.4rem;
+}
+.minus {
+  bottom: 25%;
+  right: 75%;
+  font-size: 3.6rem;
+}
+.multiply {
+  top: 68%;
+  left: 8%;
+  font-size: 2.9rem;
+}
+.equal {
+  top: 30%;
+  left: 55%;
+  font-size: 2.7rem;
+}

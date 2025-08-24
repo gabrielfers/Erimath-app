@@ -1,0 +1,31 @@
+header {
+  height: 80px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px;
+  background-color: #80ec99;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #000000;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #2e7d32;
+}
