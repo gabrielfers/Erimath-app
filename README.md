@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Erimath 📚
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do Erimath! Este é um site educacional criado para a Professora de Matemática Eriane André, com o objetivo de compartilhar materiais de estudo, avaliações e dicas para seus alunos.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+O site é uma aplicação de página única (SPA) e possui as seguintes seções:
 
-### `npm start`
+*   **Início**: Uma página de boas-vindas com uma introdução ao propósito do site.
+*   **Avaliações**: Uma seção onde os alunos podem visualizar e baixar avaliações anteriores em formato PDF para praticar.
+*   **Sobre Mim**: Uma breve biografia sobre a Professora Eriane André.
+*   **Contato**: Um formulário para que os visitantes possam enviar mensagens, dúvidas ou sugestões.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   **React**: Biblioteca JavaScript para construir a interface de usuário.
+*   **CSS**: Estilização customizada para cada componente, garantindo uma identidade visual única.
+*   **HTML**: Estrutura semântica do site.
+*   **JavaScript**: Lógica e interatividade da aplicação.
 
-### `npm test`
+## Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto foi organizado com uma arquitetura baseada em componentes para facilitar a manutenção e reutilização de código. Os principais componentes estão localizados em `src/components`:
 
-### `npm run build`
+```
+src/
+└── components/
+    ├── avaliacoes/     # Seção de avaliações
+    ├── cardAvaliacao/  # Card individual para cada avaliação
+    ├── contato/        # Seção de contato com formulário
+    ├── header/         # Cabeçalho fixo com navegação
+    ├── inicio/         # Seção de boas-vindas
+    └── sobreMim/       # Seção de biografia
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Executar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar este projeto localmente, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clone o repositório**
+    ```sh
+    git clone https://github.com/gabrielfers/Erimath-app.git
+    ```
 
-### `npm run eject`
+2.  **Navegue até o diretório do projeto**
+    ```sh
+    cd erimath-app
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  **Instale as dependências**
+    ```sh
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.  **Inicie a aplicação em modo de desenvolvimento**
+    ```sh
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Abra [http://localhost:3000](http://localhost:3000) para visualizar o projeto no seu navegador.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
